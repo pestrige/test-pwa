@@ -1,0 +1,10 @@
+.balanceList {
+	padding: 0 16px 32px 16px;
+	display: grid;
+	gap: 16px;
+}
+
+.transactions {
+	display: flex;
+	gap: 16px;
+}

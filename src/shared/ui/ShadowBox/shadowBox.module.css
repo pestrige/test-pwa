@@ -1,0 +1,6 @@
+.root {
+	box-shadow: 0 0 16px var(--shadow-color);
+	border-radius: 24px;
+	padding: 20px;
+	background-color: white;
+}

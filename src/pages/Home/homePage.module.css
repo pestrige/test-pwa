@@ -1,0 +1,8 @@
+.home {
+	overflow: auto;
+	height: 100%;
+}
+
+.home::-webkit-scrollbar {
+	display: none;
+}

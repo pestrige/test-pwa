@@ -1,0 +1,15 @@
+:root {
+	--background-color: #EDEDED;
+	--shadow-color: rgba(0, 0, 0, 0.1);
+
+	--accent-color: #428BF8;
+	--accent-color-500: #535bf2;
+
+	--success-color: #34C759;
+	--success-color-light: #E5F9EF;
+
+	--txt-main-color: #353535;
+	--txt-color-400: #848388;
+
+	--search-background-color: #EEEEF0;
+}
