@@ -1,5 +1,5 @@
 import { FC, ReactNode } from 'react';
-import clx from './darkBox.module.css';
+import clx from './darkbox.module.css';
 
 type DarkBoxProps = {
   children: ReactNode;
