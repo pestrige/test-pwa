@@ -3,8 +3,8 @@ import { NavLink } from 'react-router';
 import { AppRoutes } from '../../../shared/config/router.ts';
 import arrow from '../../../shared/assets/arrow.png';
 import proLabel from '../../../shared/assets/pro-label.jpeg';
-import cls from './profileCard.module.css';
 import { useUserContext } from '../model/userContext.tsx';
+import cls from './profileCard.module.css';
 
 const IconSize = {
   compact: 40,
