@@ -1,0 +1,12 @@
+.root {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+.back {
+    position: absolute;
+    top: 32px;
+    left: 0;
+    transform: rotate(180deg);
+}
