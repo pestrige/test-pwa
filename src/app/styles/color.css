@@ -11,6 +11,11 @@
 
 	--txt-main-color: #353535;
 	--txt-color-400: #848388;
+	--txt-color-300: #A7A6AB;
+	--text-contrast-color: #EDEDED;
+
+	--header-color: #363E4D;
+	--header-color-accent: #ADDB4B;
 
 	--search-background-color: #EEEEF0;
 }

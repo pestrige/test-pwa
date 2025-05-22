@@ -4,11 +4,6 @@
     gap: 16px;
     padding: 16px;
     overflow: auto;
-    height: 100%;
-}
-
-.root::-webkit-scrollbar {
-    display: none;
 }
 
 .header {

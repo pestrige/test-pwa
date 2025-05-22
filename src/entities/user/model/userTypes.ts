@@ -6,6 +6,7 @@ export type UserInfo = {
   phone: string;
   id: string;
   valid: string;
+  accountNumber: string
 };
 
 export type UserIcon = {

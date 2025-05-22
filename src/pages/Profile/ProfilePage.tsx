@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import { ProfileCard, useUserContext, useUserSetContext } from '../../entities/user';
-import { DarkBox, DocCard, ShadowBox } from '../../shared/ui';
+import { DarkBox, DocCard, Scrollable, ShadowBox } from '../../shared/ui';
 import passportIcon from '../../shared/assets/passport-icon.jpg';
 import innIcon from '../../shared/assets/inn-icon.jpg';
 import { BackButton } from '../../shared/layout/BackButton.tsx';
@@ -15,7 +15,7 @@ export const ProfilePage: FC = () => {
   };
 
   return (
-    <div className={cls.root}>
+    <Scrollable className={cls.root}>
       <div className={cls.header}>
         <BackButton />
         <ProfileCard />
@@ -61,6 +61,6 @@ export const ProfilePage: FC = () => {
       <DarkBox onClick={handleLogout} className={cls.logout}>
         Log out
       </DarkBox>
-    </div>
+    </Scrollable>
   );
 };

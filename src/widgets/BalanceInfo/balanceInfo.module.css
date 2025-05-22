@@ -1,0 +1,31 @@
+.root {
+    padding: 36px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.twoCell {
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.description {
+    color: var(--txt-color-400);
+    margin-bottom: 16px;
+}
+
+.close {
+    display: flex;
+    justify-content: center;
+    color: var(--accent-color);
+    font-size: 18px;
+    font-weight: bold;
+}

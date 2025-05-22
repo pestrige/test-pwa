@@ -11,6 +11,7 @@ export const userInfo: Record<UserType, UserInfo> = {
     phone: '+7 938 475 1575',
     id: '66 3886908',
     valid: '23.08.2027',
+    accountNumber: '42303156800004693851',
   },
   dima: {
     shortName: 'DMITRII',
@@ -18,6 +19,7 @@ export const userInfo: Record<UserType, UserInfo> = {
     phone: '+7 921 765 5935',
     id: '76 8639381',
     valid: '07.09.2032',
+    accountNumber: '42303156800004693851',
   },
 };
 
@@ -43,7 +45,7 @@ export const userBalances: Record<UserType, UserBalance> = {
   dima: {
     spent: 251584,
     black: 42953.12,
-    deposit: 2_000_000,
+    deposit: 2_697_030,
     platinum: 320_000,
     savings: 500_000,
   },

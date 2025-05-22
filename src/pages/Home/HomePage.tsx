@@ -3,15 +3,15 @@ import { HomeProfile } from '../../widgets/HomeProfile/HomeProfile.tsx';
 import { SearchHome } from '../../widgets/Search/SearchHome.tsx';
 import { PromoCardsList } from '../../widgets/PromoCardsList/PromoCardsList.tsx';
 import { BalanceList } from '../../widgets/BalanceList/BalanceList.tsx';
-import cls from './homePage.module.css';
+import { Scrollable } from '../../shared/ui';
 
 export const HomePage: FC = () => {
   return (
-    <div className={cls.home}>
+    <Scrollable>
       <HomeProfile />
       <SearchHome />
       <PromoCardsList />
       <BalanceList />
-    </div>
+    </Scrollable>
   );
 };
